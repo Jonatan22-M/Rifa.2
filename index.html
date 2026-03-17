@@ -16,12 +16,14 @@
             <h3>🎟️ Registro de Rifa</h3>
 
             <div class="form-container">
-                <input type="text" id="fullName" placeholder="Nombre Completo">
-                <div class="form-arow">
-                    <input class="tel" id="phone" placeholder="Teléfono (10 Dígitos)">
-                    <input type="number" id="selectedNum" placeholder="N°">
+                <input type="text" id="fullName" placeholder="Nombre Completo" inputmode="text">
+                <div class="form-row">
+                    <input class="tel" id="phone" placeholder="Teléfono (10 Dígitos)" maxlength="10" inputmode="numeric">
+                    <input type="number" id="selectedNum" placeholder="N°" readonly>
                 </div>
-            </div>    
+            </div>
+            <p class="label">Selecciona un Número Disponible</p>
+            <div class="number-grid"></div> 
     </div>
 </body>
 </html>
