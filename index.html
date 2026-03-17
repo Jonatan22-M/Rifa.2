@@ -23,7 +23,22 @@
                 </div>
             </div>
             <p class="label">Selecciona un Número Disponible</p>
-            <div class="number-grid"></div> 
+            <div class="number-grid" id="grid"></div> 
+            <button class="btn btn-primary" id="btnRegister">Comfirmar Registro</button>
     </div>
+
+    <div class="card winner-card">
+        <button class="btn btn-secondary" id="btnSortear">✨ Realizar Sorteo</button>
+        <div class="winner-box" id="winnerBox">
+            <p>¡El Afortunado es!</p>
+            <h4 id="winnerName">---</h4>
+            <p id="winnerDetails"></p>
+        </div>
+
+        <button class="btn btn-danger" id="btnReset">Reiniciar Rifa</button>
+    </div>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
